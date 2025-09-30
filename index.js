@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3002;
 
 app.get("/", (req, res) => {
-  res.send("testing-2");
+  res.send("testing-1");
 });
 
 app.listen(PORT, "0.0.0.0",() => console.log(`Server running on port ${PORT}`));
